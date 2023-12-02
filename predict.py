@@ -6,7 +6,6 @@ from tkinter.filedialog import askopenfilename
 from tensorflow.keras.models import load_model
 
 model_path = r'D:\Models\Braintumor'
-# print(os.listdir(model_path))
 model = load_model(os.path.join(model_path,'ICmodel_1.h5'))
 
 print("Choose file to classify BrainTumor:")
